@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashwat-451/TW_ITW5.git"
+  },
+  "author": "Shashwat Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashwat-451/TW_ITW5/issues"
+  },
+  "homepage": "https://github.com/Shashwat-451/TW_ITW5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  }
+}

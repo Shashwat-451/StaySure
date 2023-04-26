@@ -1,0 +1,180 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&display=swap');
+.app2{
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(180.17deg, #3EAFEF 60.04%, rgba(12, 65, 96, 0) 108.22%); */
+    background: white;
+    
+}
+
+.coll1{
+    
+    /* align-items: center;
+    height:70vh;
+    width: 40vw;
+    justify-content: center;
+    background:rgb(212, 3, 3);
+    
+    border:2px solid white;
+    border-radius: 10px; */
+
+    /* background: linear-gradient(180deg, #e0e7f6 -26.9%, rgba(6, 60, 249, 0) 185.97%); */
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+mix-blend-mode: normal;
+opacity: 0.8;
+border: 2px solid #FFFFFF;
+
+filter: drop-shadow(20px 30px 30px rgba(0, 0, 0, 0.5));
+
+border-radius: 25px 0px 0px 25px;
+}
+.coll1 img{
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 480px) {
+    .coll12{
+      width:80vw;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    .coll12{
+      width:40vw;
+    }
+  }
+  .coll2{
+    
+    /* height:70vh; */
+    /* width: 40vw; */
+    /* background: linear-gradient(179.31deg, #C3A2DD -20.84%, rgba(252, 255, 254, 0) 111.38%); */
+    background: #536976;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 1px solid #FFFDFD;
+    border-radius: 0px 25px 25px 0px;
+  
+    /* border:2px solid white;
+    border-radius: 10px; */
+  
+}
+
+.biggyy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.biggy{
+    height:20vh;
+    width: 30vw;
+    background: white;
+    border-radius: 10px;
+
+    margin-top: 15%;
+}
+
+.biggy2{
+    height:8vh;
+    width: 4vw;
+    background: white;
+    border-radius: 13px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+	width: 80%;
+	height: 140px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-top: 5px;
+	padding-left: 5px;
+	background: white;
+    color: black;
+
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+textarea::placeholder {
+	color:black;
+}
+
+.coll2 input{
+    display: block;
+   
+    
+}
+
+
+.coll2 input {
+	width: 80%;
+    	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	outline: none;
+	padding-left: 5px;
+	background: white;
+	color:black;
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+.ju{
+    background: radial-gradient(152.5% 3150.83% at -19.5% -26.52%, #BAC0E3 0%, rgba(138, 126, 126, 0) 90.62%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 1px solid #FFFDFD;
+filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+border-radius: 15px;
+
+  
+}
+
+.lets{
+    font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 58px;
+line-height: 70px;
+/* identical to box height */
+
+text-align: center;
+
+/* color: #EC3D3D; */
+color: white;
+
+/* text-shadow: 4px 8px 7px rgba(9, 0, 0, 0.35); */
+}
+
+.ju2{
+
+    font-family: 'Roboto';
+    /* font-family: "Merriweather"; */
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color:white;
+
+text-shadow: 4px 8px 6px rgba(0, 0, 0, 0.25);
+}
