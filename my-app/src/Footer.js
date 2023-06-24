@@ -136,7 +136,7 @@ const Footer = () => {
 				</div>
 				<div className="text-center p-3 bg-black  foot ">
 
-					Copyright © 2022 - PARADISE INN. All Rights Reserved. || Magically Created by <span className="p-2"><img src={wiz} alt="img" height={30} /></span>The Wizards
+					Copyright © 2022 - STAY SURE. All Rights Reserved.
 				</div>
 			</footer>
 
